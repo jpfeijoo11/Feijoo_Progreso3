@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Feijoo_Progreso3.Views;
 
 namespace Feijoo_Progreso3
 {
@@ -16,10 +17,11 @@ namespace Feijoo_Progreso3
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
         }
     }
 }
+

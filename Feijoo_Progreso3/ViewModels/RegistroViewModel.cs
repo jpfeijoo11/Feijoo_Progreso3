@@ -20,6 +20,7 @@ namespace Feijoo_Progreso3.ViewModels
 
         private async Task Guardar()
         {
+
             try
             {
                 var prenda = new Prenda

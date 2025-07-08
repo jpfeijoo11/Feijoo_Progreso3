@@ -8,7 +8,7 @@
     </ContentPage.BindingContext>
 
     <StackLayout Padding="20">
-        <Label Text="Juan Feijoo - 01/01/2000" FontSize="Large" HorizontalOptions="Center" />
+        <Label Text="Juan Feijoo - 08-11-2003" FontSize="Large" HorizontalOptions="Center" />
         <Entry Placeholder="Nombre" Text="{Binding Nombre}" />
         <Entry Placeholder="Color" Text="{Binding Color}" />
         <Entry Placeholder="Talla" Keyboard="Numeric" Text="{Binding Talla}" />
