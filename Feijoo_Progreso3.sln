@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feijoo_Progreso3", "Feijoo_Progreso3\Feijoo_Progreso3.csproj", "{3CF67FC8-70F2-4878-BEB2-B87C52AA8CA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CF67FC8-70F2-4878-BEB2-B87C52AA8CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF67FC8-70F2-4878-BEB2-B87C52AA8CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF67FC8-70F2-4878-BEB2-B87C52AA8CA3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3CF67FC8-70F2-4878-BEB2-B87C52AA8CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF67FC8-70F2-4878-BEB2-B87C52AA8CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF67FC8-70F2-4878-BEB2-B87C52AA8CA3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BA6E3E7-58B6-4EA3-B8E1-24599874ECB0}
+	EndGlobalSection
+EndGlobal
