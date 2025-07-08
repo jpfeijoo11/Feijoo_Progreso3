@@ -15,13 +15,15 @@
                 <StackLayout Padding="10">
                     <Label Text="{Binding Nombre}" FontAttributes="Bold" />
                     <Label Text="{Binding Color}" />
-                    <Label Text="Talla: {Binding Talla}" />
-                    <Label Text="En Inventario: {Binding EnInventario}" />
+                    <Label Text="{Binding Talla, StringFormat='Talla: {0}'}" />
+                    <Label Text="{Binding EnInventario}" />
                 </StackLayout>
             </DataTemplate>
         </CollectionView.ItemTemplate>
+
     </CollectionView>
 </ContentPage>
+    
     
     
     
