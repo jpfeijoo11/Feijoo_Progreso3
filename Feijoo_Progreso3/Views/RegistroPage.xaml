@@ -1,0 +1,21 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Feijoo_Progreso3.ViewModels"
+             x:Class="Feijoo_Progreso3.Views.RegistroPage">
+
+    <ContentPage.BindingContext>
+        <vm:RegistroViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="20">
+        <Label Text="Juan Feijoo - 01/01/2000" FontSize="Large" HorizontalOptions="Center" />
+        <Entry Placeholder="Nombre" Text="{Binding Nombre}" />
+        <Entry Placeholder="Color" Text="{Binding Color}" />
+        <Entry Placeholder="Talla" Keyboard="Numeric" Text="{Binding Talla}" />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="En Inventario" />
+            <Switch IsToggled="{Binding EnInventario}" />
+        </StackLayout>
+        <Button Text="Guardar" Command="{Binding GuardarCommand}" />
+    </StackLayout>
+</ContentPage>

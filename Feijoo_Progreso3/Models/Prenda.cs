@@ -7,7 +7,7 @@ using SQLite;
 
 namespace Feijoo_Progreso3.Models
 {
-    internal class Prenda
+    public class Prenda
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }

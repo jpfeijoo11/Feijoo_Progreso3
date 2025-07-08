@@ -64,7 +64,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Services\" />
+	  <MauiXaml Update="Views\InventarioPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\RegistroPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
