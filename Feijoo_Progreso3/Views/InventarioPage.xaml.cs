@@ -1,9 +1,23 @@
-namespace Feijoo_Progreso3.Views;
+using Feijoo_Progreso3.ViewModels;
 
-public partial class InventarioPage : ContentPage
+namespace Feijoo_Progreso3.Views
 {
-	public InventarioPage()
-	{
-		InitializeComponent();
-	}
+    public partial class InventarioPage : ContentPage
+    {
+        public InventarioPage()
+        {
+            InitializeComponent();
+
+            
+            BindingContext = new InventarioViewModel();
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if (BindingContext is InventarioViewModel vm)
+                await vm.Cargar();
+        }
+    }
 }

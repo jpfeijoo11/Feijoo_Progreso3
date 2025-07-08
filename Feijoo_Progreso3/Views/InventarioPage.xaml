@@ -4,9 +4,11 @@
              x:Class="Feijoo_Progreso3.Views.InventarioPage">
 
     <ContentPage.BindingContext>
-        <vm:InventarioViewModel x:Name="VM" />
+        <vm:InventarioViewModel />
     </ContentPage.BindingContext>
 
+    
+    
     <CollectionView ItemsSource="{Binding Prendas}">
         <CollectionView.ItemTemplate>
             <DataTemplate>
@@ -20,3 +22,6 @@
         </CollectionView.ItemTemplate>
     </CollectionView>
 </ContentPage>
+    
+    
+    
